@@ -68,7 +68,7 @@ $(document).ready(function(){
       });
     }
     if(titleStatus==3) {
-      document.getElementById("death").play();
+      // document.getElementById("death").play();
       $(".easter_egg_title").text('MEURTRIER!!!');
       animateCSS('.easter_egg_title', 'hinge').then((message) => 
       {

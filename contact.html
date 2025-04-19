@@ -133,10 +133,11 @@
 
     <!--Import footer-->
     <div id="footer"></div>
-    <script src="js/jquery.min.js"></script>
     <script>
       $(function() {
-        $("#footer").load("footer.html");
+        $("#footer").load("footer.html", function() {
+          $(".modal").modal(); // init modal in the footer
+        });
       });
     </script>
 
