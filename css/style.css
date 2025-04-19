@@ -51,6 +51,12 @@ h1{
     margin-bottom: 1em !important; */
     top: 2.5% !important;
 }
+
+.video{
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
 /* Mobile-specific styles */
 @media screen and (max-width: 800px) {
     .caption{
@@ -64,5 +70,13 @@ h1{
     .slider{
         height: 20em !important;
         position: relative !important;
+    }
+
+    .video{
+        width: 100% !important;
+        aspect-ratio: 16/9;
+    }
+    .collapsible-body{
+        padding: 1em !important;
     }
 }

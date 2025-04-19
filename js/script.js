@@ -85,11 +85,11 @@ $(document).ready(function(){
     alert('bepis mmh');
   });
 
-  /*Easter egg fan art*/
-  $('.sus').hover(function(){
-    document.getElementById("boom").play();
-    $(this).attr('src','img/the_rock.jpg');
-});
+/*Easter egg fan art*/
+// $('.sus').hover(function(){
+//   document.getElementById("boom").play();
+//   $(this).attr('src','img/the_rock.jpg');
+// });
 
 /* Easter egg tea*/
 $(".tea").click(function(){
