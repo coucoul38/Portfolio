@@ -33,3 +33,36 @@ h1{
 #vmw{
     scroll-margin-top: -17em;
 }
+
+.brand-logo{
+    width: 40%;
+    height: 100%;
+    font-size: 1.6em !important;
+}
+.slides{
+    width: 100% !important;
+    height: 90% !important;
+}
+
+.slider .indicators {
+    position: relative !important;
+    height: 10% !important;
+    /* margin-top: 1em !important;
+    margin-bottom: 1em !important; */
+    top: 2.5% !important;
+}
+/* Mobile-specific styles */
+@media screen and (max-width: 800px) {
+    .caption{
+        width: 80% !important;
+        margin: 0 auto !important; /* Center horizontally */
+        margin: 0 auto !important; /* Center horizontally */
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important; /* Center vertically and horizontally */
+    }
+    .slider{
+        height: 20em !important;
+        position: relative !important;
+    }
+}
