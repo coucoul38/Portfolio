@@ -15,39 +15,18 @@
       
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Projets Noham et Justin</title>
+      <title>Portfolio Noham Coulon</title>
     </head>
 
     <body>
-      <!--Navbar-->
-      <nav class="cyan darken-4" id="navbar">
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo center"><i class="fa-solid fa-mug-saucer hide-on-small-only"></i>ProjeTea</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <div class="left hide-on-large-only">Menu</div>
-          <ul class="left hide-on-med-and-down">
-            <li class="waves-effect waves-light"><a href="helltaker.html">Site Helltaker</a></li>
-            <li class="waves-effect waves-light"><a href="minecraft.html">Serveur Minecraft</a></li>
-            <li class="waves-effect waves-light"><a href="murder_drones.html">Murder Drones</a></li>
-          </ul>
-        </div>
-      </nav>
-      <!--Navbar mobile and tablet-->
-      <ul class="sidenav" id="mobile-demo">
-        <li class="waves-effect waves-light">
-          <a href="index.html">Accueil</a>
-        </li>
-        <li>
-          <a href="helltaker.html">Site Helltaker</a>
-        </li>
-        <li>
-          <a href="minecraft.html">Serveur Minecraft</a>
-        </li>
-        <li>
-          <a href="murder_drones.html">Murder Drones</a>
-        </li>
-      </ul>
-
+      <div id="navbar"></div>
+      <!--Import navbar-->
+      <script src="js/jquery.min.js"></script>
+      <script>
+        $(function() {
+          $("#navbar").load("navbar.html");
+        });
+      </script>
       <h1 class="title center">Accueil</h1>
 
       <!--Slider images et texte-->

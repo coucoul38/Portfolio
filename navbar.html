@@ -1,0 +1,47 @@
+<!--Navbar-->
+<nav class="cyan darken-4" id="navbar">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo center"><i class="fa-solid fa-mug-saucer hide-on-small-only"></i>Noham Coulon</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="left hide-on-large-only">Menu</div>
+        <ul class="right hide-on-med-and-down">
+        <li class="waves-effect waves-light"><a href="unity.html">Unity</a></li>
+        <li class="waves-effect waves-light"><a href="unreal_engine.html">Unreal Engine</a></li>
+        <li class="waves-effect waves-light"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!--Navbar mobile and tablet-->
+<ul class="sidenav" id="mobile-demo">
+<li class="waves-effect waves-light">
+    <a href="index.html">Accueil</a>
+</li>
+<li>
+    <a href="unity.html">Unity</a>
+</li>
+<li>
+    <a href="unreal_engine.html">Unreal Engine</a>
+</li>
+<li>
+    <a href="contact.html">Contact</a>
+</li>
+</ul>
+
+<style>
+    /* Ensure sidenav is above other content */
+    .sidenav {
+      z-index: 9999 !important;
+    }
+  
+    /* Ensure the overlay is above other content */
+    .sidenav-overlay {
+      z-index: 9998 !important;
+    }
+</style>
+
+<!-- Initialize Sidenav -->
+<script>
+$(document).ready(function () {
+    $('.sidenav').sidenav();
+});
+</script>
