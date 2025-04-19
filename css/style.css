@@ -57,6 +57,10 @@ h1{
     aspect-ratio: 16/9;
 }
 
+.collapsible-header {
+    text-align: center; /* Center the text horizontally */
+}
+
 /* Mobile-specific styles */
 @media screen and (max-width: 800px) {
     .caption{
@@ -78,5 +82,8 @@ h1{
     }
     .collapsible-body{
         padding: 1em !important;
+    }
+    .parallax-container{
+        height: 10em !important;
     }
 }
