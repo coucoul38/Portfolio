@@ -61,6 +61,10 @@ h1{
     text-align: center; /* Center the text horizontally */
 }
 
+*{
+    scroll-margin-top: 60px; /* Offset scroll to be below navbar */
+}
+
 /* Mobile-specific styles */
 @media screen and (max-width: 800px) {
     .caption{
