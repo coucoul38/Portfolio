@@ -51,15 +51,15 @@ new Promise((resolve, reject) => {
   node.addEventListener('animationend', handleAnimationEnd, {once: true});
 });
 
-$("#listSlimeSlayer").click(function(){
-  $("#listImg").attr("src","media/slime_slayer_shotgun.png");
-}); 
-$("#listPortal").click(function(){
-  $("#listImg").attr("src","media/unreal_portal.png");
-}); 
-$("#listGalacticEmu").click(function(){
-  $("#listImg").attr("src","media/galactic_emu_bossfight.png");
-});
+// $("#listSlimeSlayer").click(function(){
+//   $("#listImg").attr("src","media/slime_slayer_shotgun.png");
+// }); 
+// $("#listPortal").click(function(){
+//   $("#listImg").attr("src","media/unreal_portal.png");
+// }); 
+// $("#listGalacticEmu").click(function(){
+//   $("#listImg").attr("src","media/galactic_emu_bossfight.png");
+// });
 
 /* Easter egg title */
 $(".easter_egg_title").click(function(){

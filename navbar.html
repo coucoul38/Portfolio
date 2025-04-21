@@ -1,4 +1,7 @@
 <!--Navbar-->
+<script>
+  $('.dropdown-trigger').dropdown();
+</script>
 <nav class="grey darken-4" id="navbar">
     <div class="nav-wrapper">
         <a href="index.html" class="brand-logo center">Noham Coulon</a>
@@ -9,7 +12,19 @@
             <li class="waves-effect waves-light"><a href="unity.html">Unity</a></li>
             <li class="waves-effect waves-light"><a href="unreal_engine.html">Unreal Engine</a></li>
             <li class="waves-effect waves-light"><a href="autre.html">Autre</a></li>
-            <li class="waves-effect waves-light"><a href="#contact">Contact</a></li>
+            <!-- <li class="waves-effect waves-light"><a href="#contact">Contact</a></li> -->
+
+            <!-- Dropdown Trigger -->
+            <li class="dropdown-trigger waves-effect waves-light" data-target='dropdown1'><a href="#contact">Contact</a></li>
+
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content cyan darken-4'>
+                <li><a href="mailto:noham.coulon@monemail.com" target="_blank" class="white-text">Mail</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="https://linktr.ee/noham.coulon" target="_blank" class="white-text">Linktree</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="media/CV Noham Coulon.pdf" target="_blank" class="white-text">CV</a></li>
+            </ul>
         </ul>
     </div>
 </nav>
