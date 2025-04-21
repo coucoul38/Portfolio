@@ -31,14 +31,14 @@ $(document).ready(function(){
     node.addEventListener('animationend', handleAnimationEnd, {once: true});
   });
 
-  $("#listHelltaker").click(function(){
-    $("#listImg").attr("src","img/preview_helltaker.jpg");
+  $("#listSlimeSlayer").click(function(){
+    $("#listImg").attr("src","media/slime_slayer_shotgun.png");
   }); 
-  $("#listMinecraft").click(function(){
-    $("#listImg").attr("src","img/preview_minecraft.jpg");
+  $("#listPortal").click(function(){
+    $("#listImg").attr("src","media/unreal_portal.png");
   }); 
-  $("#listMurderDrones").click(function(){
-    $("#listImg").attr("src","img/murder_drones_trailer.jpg");
+  $("#listGalacticEmu").click(function(){
+    $("#listImg").attr("src","media/galactic_emu_bossfight.png");
   });
 
   /* Easter egg title */

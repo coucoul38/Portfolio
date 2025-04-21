@@ -37,7 +37,7 @@ h1{
 .brand-logo{
     width: 40%;
     height: 100%;
-    font-size: 1.6em !important;
+    font-size: 1.3em !important;
 }
 .slides{
     width: 100% !important;
@@ -66,7 +66,7 @@ h1{
 }
 
 /* Mobile-specific styles */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .caption{
         width: 80% !important;
         margin: 0 auto !important; /* Center horizontally */
@@ -89,5 +89,15 @@ h1{
     }
     .parallax-container{
         height: 10em !important;
+    }
+
+    .valign-wrapper {
+        flex-direction: column; /* Stack content vertically on small screens */
+        align-items: center; /* Center align the content */
+        text-align: center; /* Center align the text */
+    }
+    
+    .valign-wrapper img {
+        margin-bottom: 1em; /* Add spacing below the image */
     }
 }

@@ -31,7 +31,7 @@
 
     <div class="container">
       <h4 class="center">Bienvenue sur mon portfolio</h2>
-      <p class="flow-text center">Je m'appelle Noham Coulon et je prépare un Bachelor Programmation Avancée spécialité jeu vidéo, au Gaming Campus de Lyon.<br>
+      <p class="flow-text center">Je m'appelle Noham Coulon et je prépare un Bachelor Programmation Avancée spécialité jeu vidéo,<br> au Gaming Campus de Lyon.<br>
       Au cours de mes trois années d'études, j'ai créé plusieurs jeux en utilisant Unity et Unreal Engine.<br>
       </p>
     </div>
@@ -40,21 +40,21 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="img/galactic_emu_bossfight.png" alt="preview Galactic Emu"> 
+          <img src="media/galactic_emu_bossfight.png" alt="preview Galactic Emu"> 
           <div class="caption center-align">
             <a href="autre.html#GalacticEmu"><h2 class="red-text text-darken-4 title flow-text">Galactic Emu</h2></a>
             <h5 class="red-text text-darken-4">Un Bullet Hell sur Pygame</h5>
           </div>
         </li>
         <li>
-          <img src="img/bar_preview.png" alt="preview BAR"> 
+          <img src="media/bar_preview.png" alt="preview BAR"> 
           <div class="caption center-align">
             <a href="unity.html#BAR"><h2 class="purple-text text-accent-2 title flow-text">BAR</h2></a>
-            <h5 class="purple-text text-accent-2">Un FPS Doomlike style dessin</h5>
+            <h5 class="purple-text text-accent-2">Un FPS Doomlike sur Unity</h5>
           </div>
         </li>
         <li>
-          <img src="img/unreal_portal.png" alt="preview Portal">
+          <img src="media/unreal_portal.png" alt="preview Portal">
           <div class="caption center-align">
             <h2 class="blue-text text-darken-4 title flow-text">Portal sur Unreal</h2>
             <h5 class="blue-text text-darken-4">Recréation des mécaniques de Portal sur Unreal Engine</h5>
@@ -70,21 +70,21 @@
       <div class="col l6 m6 s12">
         <ul class="collapsible popout">
           <li class="active">
-            <div class="collapsible-header" id="listHelltaker"><i class="material-icons">arrow_drop_down</i>Slime Slayer</div>
+            <div class="collapsible-header" id="listSlimeSlayer"><i class="material-icons">arrow_drop_down</i>Slime Slayer</div>
             <div class="collapsible-body white">
-              <span>Un fps où le joueur doit survivre le plus de vagues d'ennemis dans une arène. A la fin de chaque vague, une arme apparait au centre avec un niveau de rareté aléatoire.</span>
+              <span>Un FPS où le joueur doit survivre au plus de vagues d'ennemis possible dans une arène. A la fin de chaque vague, une arme apparait au centre avec un niveau de rareté aléatoire.</span>
               <a class="btn-floating right cyan darken-4 pulse" href="unity.html#slime-slayer"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
           </li>
           <li>
-            <div class="collapsible-header" id="listMinecraft"><i class="material-icons">arrow_drop_down</i>Projet de serveur Minecraft</div>
+            <div class="collapsible-header" id="listPortal"><i class="material-icons">arrow_drop_down</i>Projet de serveur Minecraft</div>
             <div class="collapsible-body white">
               <span>Salut, c'est Noham. Je suis en train de créer un serveur de mini-jeux modés sur minecraft, en utilisant des commandes dérivées du Java.</span>
               <a class="btn-floating right cyan darken-4 pulse" href="minecraft.html"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
           </li>
           <li>
-            <div class="collapsible-header" id="listMurderDrones"><i class="material-icons">arrow_drop_down</i>Murder Drones</div>
+            <div class="collapsible-header" id="listGalacticEmu"><i class="material-icons">arrow_drop_down</i>Galactic Emu</div>
             <div class="collapsible-body white">
               <span>Nous allons parler de l'épisode pilote d'une série en phase de production qui nous tiens à coeur</span>
               <a class="btn-floating right cyan darken-4 pulse" href="murder_drones.html"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -93,37 +93,32 @@
         </ul>
       </div>
       <div class="col l6 m6 s12">
-        <img id="listImg" class="materialboxed width100" src="img/bar_preveiw.png" alt="preview">
+        <img id="listImg" class="materialboxed width100" src="media/bar_preview.png" alt="preview">
       </div>
     </div>
 
     <!--Paralaxe-->
-    <div class="parallax-container tea">
-      <div class="parallax"><img src="img/bar_preveiw.png" alt="bg"></div>
-    </div>
-    <audio id="slurp" src="audio/slurp.mp3" preload="auto"></audio>
+    <!-- <div class="parallax-container tea">
+      <div class="parallax"><img src="media/bar_preveiw.png" alt="bg"></div>
+    </div>-->
 
     <!--About Us-->
     <div class="container">
       <h2 class="title center">About me</h2>
-      <div class="row">
-        <div class="aboutUs1 card cyan darken-4 white-text horizontal col m5 s12">
-          <div class="card-image">
-            <img src="img/coucoul38.jpg" alt="photo">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <h4 class="title">Noham Coulon "Coucoul38"</h4>
-              <p class="flow-text">Salut, j'aime coder et jouer aux jeux vidéos.
-                <br>Ces derniers temps, j'ai comméncé à coder des mini-jeux dans minecraft.
-              </p>
-            </div>
-          </div>
+      <div class="card cyan darken-4 white-text row m12 s12">
+        <div class="card-content valign-wrapper">
+          <img src="media/NohamCoulon.jpg" alt="photo" class="col s12 m4 l3 responsive-img circle"> 
+          <p class="flow-text col s12 m8 l9">Salut, j'aime coder et jouer aux jeux vidéos.<br>J'ai donc choisit de faire un bachelor en programmation avancée spécialité jeu vidéo.<br>
+          Etudiant en 3eme année au Gaming Campus de Lyon, Je cherche actuellement un stage pour valider mon année, et une alternance pour continuer vers un master.<br>
+          </p>
+        </div>
+        <!-- <div class="card-stacked col s12 m8 l9"> -->
+          
         </div>
 
         <!-- <div class="aboutUs1 card cyan darken-4 white-text horizontal col m5 s12 right">
           <div class="card-image">
-            <img src="img/coucoul38.jpg" alt="killingaming logo">
+            <img src="media/coucoul38.jpg" alt="killingaming logo">
           </div>
           <div class="card-stacked">
             <div class="card-content">
